@@ -2,22 +2,142 @@ body {
     background-color: #F7F7F7;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .home_container {
     margin-left: 5%;
     margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.1;
+
 
     .left_part {
 
+        width: 50%;
+        margin-right: 8%;
+
         .title {
             font-size: 68px;
-            color: rgb(81, 81, 81);            
+            color: rgb(81, 81, 81);
+            font-weight: bold;
         }
 
         .text_container {
-            margin-top: 2%;
+            margin-top: 5%;
+
+            .text {
+                margin-top: 2%;
+                line-height: 1.4;
+            }
+
+            .bold_text {
+                font-size: 18px;
+                font-weight: bold;
+            }
         }
 
+        .discover {
+            cursor: pointer;
+            width: 60%;
+            background-color: #5AD07B;
+            height: 50px;
+            margin: auto;
+            margin-top: 4%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 3px;
+            color: #F7F7F7;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+
+    .right_part {
+        width: 30%;
+        background-color: #76E283;
+        color: #F7F7F7;
+
+        .wel_container {
+            width: 100%;
+            background-color: red;
+            height: 110px;
+            display: flex;
+
+            .logo {
+                width: 40%;
+                background-color: violet;
+                height: 100%;
+            }
+
+            .wel {
+                width: 60%;
+                background-color: #5AD07B;
+                height: 100%;
+            }
+        }
+
+        .text_container {
+
+            .wel_title {
+                font-size: 28px;
+                margin: 3%;
+                font-weight: bold;
+                margin-top: 6%;
+                margin-bottom: 6%;
+            }
+
+            .text_wrapper {
+
+                .text {
+                    margin-left: 3%;
+                    margin-right: 3%;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                }
+            }
+        }
 
     }
+}
+
+.second_section {
+    margin-top: 10%;
+
+    .title {
+        margin-left: 5%;
+        font-size: 68px;
+        color: rgb(81, 81, 81);
+        font-weight: bold;
+    }
+
+    .marques_container {
+        margin: auto;
+        width: 80%;
+        height: 840px;
+        background-color: pink;
+        margin-top: 5%;
+
+        .line {
+            display: flex;
+            background-color: red;
+            border: 1px solid blue;
+            width: 100%;                        
+            height: 18%;
+            margin-bottom: 2%;
+
+            .bloc {
+                width: 21%;
+                margin-left: 2%;
+                margin-right: 2%;
+                background-color: #fff;
+            }
+        }
+
+    }
+
 
 }
