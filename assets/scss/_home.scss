@@ -1,4 +1,23 @@
-* {
-    background-color: #16201B;
-    color: white;
+body {
+    background-color: #F7F7F7;
+}
+
+.home_container {
+    margin-left: 5%;
+    margin-top: 7%;
+
+    .left_part {
+
+        .title {
+            font-size: 68px;
+            color: rgb(81, 81, 81);            
+        }
+
+        .text_container {
+            margin-top: 2%;
+        }
+
+
+    }
+
 }

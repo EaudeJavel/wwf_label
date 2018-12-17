@@ -124,44 +124,68 @@ a {
   color: inherit;
   outline: none; }
 
+* {
+  font-family: 'Open Sans', sans-serif !important; }
+
 .header_container {
   width: 100%;
-  background-color: transparent;
+  background-color: #fff;
   display: flex;
   align-items: center;
-  height: 100px;
-  position: fixed; }
+  height: 80px;
+  border-bottom: 1px solid #D9D9D9; }
   .header_container .menu_container {
     width: 11%;
     height: 100%;
     padding: 20px; }
-    .header_container .menu_container .burger .burger_line {
-      margin: 10px auto;
-      height: 5px;
-      width: 40px;
-      background-color: #fff;
-      border-radius: 15%; }
   .header_container .logo_container {
-    height: 120%;
-    width: 7%;
-    background-color: #fff;
+    height: 150%;
+    width: 17%;
+    background-color: #4DD8A0;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-left: 5%; }
     .header_container .logo_container .logo {
-      width: 50%;
+      width: 70%;
       background-color: transparent; }
-  .header_container .donate_container {
-    width: 85%;
+  .header_container .links_container {
+    width: 78%;
     height: 100%;
     display: flex;
-    align-items: center;
     flex-direction: row-reverse; }
-    .header_container .donate_container .donate {
-      margin-right: 8%;
-      font-size: 22px;
-      font-family: 'Nexa Bold'; }
+    .header_container .links_container .header_links {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%; }
+      .header_container .links_container .header_links .link {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-transform: uppercase;
+        font-weight: bold;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: #515151; }
+        .header_container .links_container .header_links .link .get_label {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 50%;
+          background-color: #4DD8A0;
+          width: 180px;
+          border-radius: 3px;
+          color: #fff; }
 
-* {
-  background-color: #16201B;
-  color: white; }
+body {
+  background-color: #F7F7F7; }
+
+.home_container {
+  margin-left: 5%;
+  margin-top: 7%; }
+  .home_container .left_part .title {
+    font-size: 68px;
+    color: #515151; }
+  .home_container .left_part .text_container {
+    margin-top: 2%; }
