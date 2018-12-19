@@ -3,7 +3,7 @@
         <li class="link">
             le label
         </li>
-        <li class="link">
+        <li class="link brand_label">
             les marques labélisées
         </li>
         <li class="link">
