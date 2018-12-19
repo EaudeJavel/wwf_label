@@ -10,13 +10,14 @@
         </div>
         <div class="phrase">
             Je suis
-            <select name="iam" id="jesuis">
+            <select class="select" name="iam" id="jesuis">
                 <option value="start-up" selected='selected'>Une Start-up</option>
                 <option value="choix2" >Un choix</option>
                 <option value="choix3" >En choix</option>
             </select>
             et je recherche
-            <select name="search" id="jrecherche">
+            <select class="select" name="search" id="jrecherche" >                
+                <option value="" hidden>choose here</option>
                 <option value="textile">des solutions textiles</option>
                 <option value="choix4" disabled>An choix</option>
                 <option value="choix5" disabled>Sardines</option>
@@ -42,3 +43,11 @@
         </div>
     </div>
 </div>
+
+
+
+<?php
+
+    require 'pages/home/popin.php';
+
+?>

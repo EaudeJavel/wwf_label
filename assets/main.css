@@ -256,3 +256,66 @@ body {
   font-weight: bold;
   margin-top: 6%;
   margin-bottom: 6%; }
+
+.select {
+  background-color: #fff;
+  color: #5AD07B;
+  font-weight: bold;
+  padding-left: 6px;
+  padding-right: 6px; }
+
+.popin_container {
+  display: flex;
+  justify-content: center; }
+  .popin_container .popin {
+    width: 38%;
+    height: 80vh;
+    position: absolute;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap; }
+    .popin_container .popin .header {
+      height: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+    .popin_container .popin .body .img img {
+      width: 100%; }
+    .popin_container .popin .body .p {
+      width: 90%;
+      margin: auto;
+      margin-top: 5%;
+      line-height: 1.4; }
+    .popin_container .popin .body .more {
+      width: 90%;
+      margin: auto;
+      margin-top: 2%;
+      font-weight: bold;
+      cursor: pointer; }
+    .popin_container .popin .footer {
+      background-color: red;
+      width: 100%; }
+      .popin_container .popin .footer .coords {
+        height: 100%;
+        background-color: pink;
+        display: flex;
+        justify-content: space-around; }
+        .popin_container .popin .footer .coords .site {
+          display: flex;
+          align-items: center; }
+          .popin_container .popin .footer .coords .site .text {
+            margin-left: 4%;
+            font-size: 14px; }
+        .popin_container .popin .footer .coords .phone {
+          display: flex;
+          align-items: center; }
+          .popin_container .popin .footer .coords .phone .text {
+            margin-left: 4%;
+            font-size: 14px; }
+        .popin_container .popin .footer .coords .mail {
+          display: flex;
+          align-items: center; }
+          .popin_container .popin .footer .coords .mail .text {
+            margin-left: 4%;
+            font-size: 14px; }

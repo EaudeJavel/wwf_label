@@ -10,12 +10,19 @@ console.log(brands);
 
 
 const jesuis = document.getElementById('jesuis')
+
 const search = document.getElementById('jrecherche')
+
+const oui = search.options[1]
+console.log(oui);
+    
 
 
 search.addEventListener('click', () => {
+    console.log('oui');
+    
     if (brands.classList.contains('displayed')) {
-        brands.classList.remove('displayed')        
+        brands.classList.remove('displayed')      
     } else {
         brands.classList.add('displayed')
     }
