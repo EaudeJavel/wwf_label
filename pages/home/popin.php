@@ -4,7 +4,9 @@
             <div class="logo">
                 <img src="assets/images/hopaal.svg" alt="hopaal">
             </div>
-            <div class="cross"></div>
+            <div class="cross">
+                <img src="assets/images/cross.svg" alt="">
+            </div>
         </div>
         <div class="body">
             <div class="img">

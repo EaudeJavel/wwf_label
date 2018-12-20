@@ -15,15 +15,16 @@
     .logo_container {
         height: 150%;
         width: 17%;
-        background-color: #5AD07B;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-left: 5%;
 
         .logo {
-            width: 70%;
+            width: 98%;
             background-color: transparent;
+            transform: translateY(10%);
+            border: #5AD07B 1px solid;
         }
     }
 
